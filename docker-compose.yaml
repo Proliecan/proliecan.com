@@ -4,6 +4,7 @@ services:
   # build image
   web:
     build: https://github.com/Proliecan/proliecan.com.git#main
+    image: proliecan-com
     # map 8080 to 80 on host
     ports:
       - "80:8080"
