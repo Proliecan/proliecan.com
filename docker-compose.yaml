@@ -3,9 +3,10 @@ version: '3'
 services:
   # build image
   web:
-    build: .
+    build: https://github.com/Proliecan/proliecan.com.git#main
+    # map 8080 to 80 on host
     ports:
-      - 8080:8080
+      - "80:8080"
     # bridge network
     networks:
       - web
