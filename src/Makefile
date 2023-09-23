@@ -1,2 +1,2 @@
 all:
-	go run . -c ../config/config.yaml -v
+	go run . -d localhost -p 8080 -v

@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	"strconv"
 )
 
 func initServer() {
@@ -29,4 +30,9 @@ func initServer() {
 				colorize("<", Green), "404")
 		}
 	})
+}
+
+func startServer(domain string, port int) {
+	// start server
+	log.Fatal(http.ListenAndServe(domain+":"+strconv.Itoa(port), nil))
 }
