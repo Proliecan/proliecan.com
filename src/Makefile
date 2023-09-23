@@ -1,2 +1,2 @@
 all:
-	go run .
+	go run . -c ../config/config.yaml -v
