@@ -1,3 +1,6 @@
+> [!warning]
+> # This thing is retired!!! I have done a much cooler thing.
+
 # Proliecan.com website
 
 This is the source code for the [proliecan.com](https://proliecan.com) website.
